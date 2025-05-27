@@ -1,0 +1,1587 @@
+.contact-1 {
+  margin-top: 0px;
+}
+
+.contact {
+  margin: 0 auto 10px auto; 
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 0.885;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center; 
+}
+.about .layer-1 {
+  max-width: 133px;
+  height: 30px;
+}
+
+.about .header {
+  margin: 0 82.3px 63px 87px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1284.7px;
+  box-sizing: border-box;
+}
+.about .about-contact {
+  margin: 2px 0 4px 0;
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.about-link,
+.contact-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  margin: 0 20px; 
+}
+
+.about-link::after,
+.contact-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.about-link:hover::after,
+.contact-link:hover::after {
+  width: 100%;
+}
+
+.inquiry {
+  margin: 0 auto 28px auto; 
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "FontLight";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.group-18 {
+  margin: 0 auto 100px auto; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 87px;
+  box-sizing: border-box;
+}
+
+.rectangle-1550,
+.rectangle-1549,
+.rectangle-1548 {
+  border: 1px solid #ffdd33;
+  width: 12px;
+  height: 12px;
+}
+
+.container-19 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  box-sizing: border-box;
+}
+
+.general-query {
+  margin: 0; 
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 0; 
+  overflow-wrap: break-word;
+  font-family: "FontLight";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2; 
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block; 
+}
+
+.infomercellinie-com {
+  margin: 0; 
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "FontExtraLight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2; 
+  color: #e1e1e1;
+  padding: 0;
+  margin-bottom: 30px; 
+}
+
+.phone-number-1 {
+  margin: 0; 
+  padding: 0;
+  margin-bottom: 10px; 
+  overflow-wrap: break-word;
+  font-family: "FontLight";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2; 
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.container-phone {
+  margin: 0; 
+  display: flex;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "FontExtraLight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2; 
+  color: #e1e1e1;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.location {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px; 
+  overflow-wrap: break-word;
+  font-family: "FontLight";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2; 
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.column-left-address {
+  margin: 0; 
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "FontExtraLight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2; 
+  color: #e1e1e1;
+  padding: 0;
+}
+
+.column-center {
+  width: 100%; 
+}
+
+.container-13 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+.writing-us-for {
+  margin-right: 13px;
+  padding-left: 10px;
+  width: 124px;
+  overflow-wrap: break-word;
+  font-family: "FontExtraLight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.444;
+  color: #bbbbbb;
+}
+
+.vector {
+  width: 10px;
+  height: 5px;
+  margin-left: 100px;
+}
+
+.arrow-drop-down-24-dp-e-8-eaed-fill-0-wght-400-grad-0-opsz-2411 {
+  margin: 12px 0 9px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+
+.container-2 {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 520px;
+  margin: 0 auto; 
+}
+
+.full-name,
+.email-address,
+.phone-number,
+.message {
+  overflow-wrap: break-word;
+  font-family: "FontExtraLight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.444;
+  color: #bbbbbb;
+}
+
+.container-6 {
+  padding-bottom: 143px;
+}
+
+.group-52 {
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.submit {
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  color: #060606;
+}
+
+.frame-51 {
+  background: #ffdd33;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  padding: 10px 0; 
+  width: 520px;
+  box-sizing: border-box;
+}
+
+.frame-52 {
+  margin-left: 30px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+.vendors-manufactures-partners-media {
+  margin: 0;
+  padding-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "FontLight";
+  font-weight: 400;
+  font-size: 18px;
+  color: #e1e1e1;
+}
+
+.container-3 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.container-11 {
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+  box-sizing: border-box;
+  margin-bottom: 474px;
+}
+
+.container-4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.vector-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100vw; 
+  padding-top: 15%; 
+  overflow-x: hidden; 
+}
+
+.vector-1 {
+  width: 90%; 
+  height: auto; 
+  max-width: 100%; 
+  margin: 0 auto;
+  z-index: 1; 
+}
+
+.download-icons {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end; 
+  width: 300px;
+  padding-right: 50px;
+  margin: 60px 20px 20px auto; 
+}
+
+.vector-2,
+.vector-3,
+.vector-4,
+.vector-5,
+.vector-6 {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px; 
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px; 
+  width: 100%;
+  background-color: #060606;
+  box-sizing: border-box;
+}
+.background-icons {
+  background-image: url("./assets/Group34.png");
+  object-fit: contain;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer .mercellinie,
+.footer .privacy-policy,
+.footer .made-by-wings {
+  font-family: "FontJetbrainsReg";
+  font-weight: 50;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer .mercellinie {
+  color: #ffdd33;
+  margin-right: 10px;
+}
+
+.footer .privacy-policy {
+  margin-right: auto;
+  padding-left: 0px;
+}
+
+.columns-container {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 0 20px; 
+}
+
+.contact-1 {
+  position: relative;
+  z-index: 1; 
+  background: #060606;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100vw; 
+  min-height: 100vh; 
+  overflow-x: hidden; 
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* width: 100vw;
+  overflow-x: hidden; */
+}
+
+.input-field {
+  font-family: "FontExtraLight";
+  font-size: 16px;
+  padding: 10px 10px; 
+  box-sizing: border-box;
+  border: 1px solid #3e3e3e;
+  background: linear-gradient(180deg, rgba(29, 29, 29, 0.53), #060606);
+  color: #bbbbbb;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0px;
+}
+
+.input-field::placeholder {
+  color: #bbbbbb;
+}
+
+textarea.input-field {
+  height: 210px; 
+  padding: 5px 10px; 
+  margin: 0;
+  resize: none; 
+}
+
+.container-2,
+.container-1,
+.container-18,
+.container-12,
+.container-6 {
+  border: 1px solid #3e3e3e;
+  background: linear-gradient(180deg, rgba(29, 29, 29, 0.53), #060606);
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+.dropdown-field {
+  background-color: transparent;
+  position: relative;
+  font-family: "FontExtraLight";
+  border: none;
+  color: #bbbbbb;
+  width: 100%;
+  height: 50px;
+  appearance: none; 
+  padding: 8px;
+  font-size: 16px;
+  background-image: url("/src/assets/DropdownArrow.svg"); 
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+}
+
+.dropdown-field:focus {
+  margin-top: 5px; 
+  outline: none;
+}
+
+.dropdown-field option {
+  color: #000; 
+}
+
+.container-2 {
+  position: relative;
+}
+
+.container-2 {
+  position: relative;
+}
+
+.frame-51 {
+  height: 50px;
+}
+
+.submit-button {
+  font-family: "FontRegular";
+  font-size: 24px; 
+  color: #060606;
+  background-color: #ffdd33;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0; 
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #ffd700; 
+}
+
+.made-by-wings {
+  color: #d4af37; 
+  text-decoration: none; 
+  position: relative;
+  font-size: 1.5rem; 
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px; 
+}
+
+.made-by-wings:hover {
+  color: #d4af37; 
+  transform: translateY(-2px); 
+}
+
+.made-by-wings::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(212, 175, 55, 0) 0%,
+    #d4af37 50%,
+    rgba(212, 175, 55, 0) 100%
+  );
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.made-by-wings:hover::before {
+  width: 100%; 
+}
+
+.made-by-wings::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.made-by-wings:hover::after {
+  opacity: 1; 
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  z-index: 100;
+  width: 300px;
+  text-align: center;
+}
+
+.popup-content p {
+  font-family: "FontRegular";
+  font-size: 18px;
+  color: #060606;
+  margin-bottom: 20px;
+}
+
+.close-popup-button {
+  font-family: "FontRegular";
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ffdd33;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-popup-button:hover {
+  background-color: #ffd700;
+}
+
+@media (min-width: 375) and (max-width: 600) {
+  .footer .made-by-wings {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .about-contact {
+    font-size: 14px; 
+    margin: 10px 0; 
+  }
+
+  .contact {
+    margin-top: 20px;
+    font-size: 50px; 
+  }
+
+  .inquiry {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
+
+  .group-18 {
+    margin: 0 auto 50px auto; 
+    width: 70px; 
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 10px; 
+    height: 10px;
+  }
+
+  .columns-container {
+    flex-direction: column; 
+    gap: 20px; 
+  }
+
+  .column-left,
+  .column-center {
+    width: 100%; 
+    padding: 0 10px; 
+  }
+
+  .input-field {
+    font-size: 14px; 
+    padding: 10px; 
+  }
+  .dropdown-field {
+    font-size: 14px;
+  }
+
+  textarea.input-field {
+    height: 100px; 
+  }
+
+  .submit-button {
+    font-size: 18px; 
+    padding: 10px 0; 
+    width: 100%; 
+  }
+
+  .vector-container {
+    padding-top: 10%; 
+  }
+
+  .download-icons {
+    gap: 15px; 
+    padding-right: 50px;
+  }
+
+  .vector-2,
+  .vector-3,
+  .vector-4,
+  .vector-5,
+  .vector-6 {
+    width: 15px; 
+    height: 15px;
+  }
+
+  .footer {
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 12px; 
+  }
+}
+
+@media (max-width: 600px) {
+  .container-16,
+  .columns-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 20px; /* Add gap between column containers */
+  }
+
+  .column {
+    width: 100%; /* Ensure columns take full width on mobile */
+    padding: 0;
+    margin-bottom: 20px; /* Add space between columns */
+  }
+
+  .column-center {
+    width: 100%;
+  }
+
+  .frame-52 {
+    width: 90%; /* Reduce the width of the container */
+    margin: 0 auto; /* Center the container */
+  }
+
+  .group-52 {
+    width: 100%; /* Make sure the group takes full width */
+    margin-bottom: 20px; /* Add margin at the bottom for spacing */
+  }
+
+  .container-2 {
+    width: 100%; /* Ensure it takes full width on mobile */
+    margin: 0 auto; /* Center it horizontally */
+    margin-bottom: 20px;
+  }
+
+  .input-field {
+    width: 100%;
+    font-size: 14px; /* Reduce font size for smaller screens */
+    height: 40px; /* Adjust input field height */
+  }
+
+  .submit-button {
+    font-size: 18px; /* Reduce font size for the button text */
+    padding: 10px 0; /* Adjust padding to make the button smaller */
+  }
+
+  .layer-1 {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .about-contact,
+  .contact,
+  .made-by-wings {
+    text-align: center; /* Center the text within the element */
+    margin: 0 auto; /* Center the element horizontally */
+    display: block;
+  }
+
+  .vector-container {
+    width: 100%;
+    text-align: center; /* Center the content within the container */
+    margin: 20px auto;
+  }
+
+  .contact {
+    font-size: 50px;
+    text-align: center; /* Ensure text is centered */
+  }
+
+  .inquiry {
+    font-size: 20px;
+    text-align: center; /* Ensure text is centered */
+  }
+
+  .frame-51,
+  .submit-button {
+    width: 100%;
+    text-align: center; /* Center the button */
+  }
+
+  .download-icons {
+    justify-content: center;
+    width: 100%;
+    padding-right: 0;
+    gap: 10px;
+    text-align: center; /* Center the icons */
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    text-align: center;
+    margin: 0 auto; /* Center the footer text */
+  }
+
+  .columns-container {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .column {
+    padding: 0;
+  }
+
+  .container-13 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .columns-container {
+    flex-direction: column;
+    gap: 30px; /* Increase spacing between columns */
+  }
+
+  .column-left,
+  .column-center {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .column-left {
+    justify-content: center;
+  }
+  .group-18 {
+    margin-bottom: 30px;
+  }
+  .contact {
+    margin-top: 70px;
+  }
+  .frame-52 {
+    width: 95%; /* Reduce container width */
+    margin: 0 auto;
+  }
+
+  .input-field {
+    font-size: 15px; /* Adjust font size */
+    height: 45px; /* Adjust input height */
+  }
+
+  .submit-button {
+    font-size: 20px;
+    padding: 12px 0; /* Adjust padding */
+    width: 100%;
+  }
+
+  .contact {
+    font-size: 70px; /* Reduce font size of contact title */
+  }
+
+  .inquiry {
+    font-size: 25px;
+  }
+
+  .download-icons {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer {
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+  }
+  .container,
+  .infomercellinie-com {
+    margin-bottom: 10px !important;
+  }
+  .download-icons {
+    margin-right: 0px;
+    padding-right: 20px;
+  }
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 16px; /* Adjust font size */
+  }
+  .footer .made-by-wings {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 426px) and (max-width: 600px) {
+  .contact {
+    margin-top: 30px;
+  }
+
+  .columns-container {
+    flex-direction: column; /* Stack columns vertically */
+    gap: 20px;
+  }
+
+  .layer-1 {
+    margin: 0 20px;
+  }
+  .infomercellinie-com,
+  .container-phone,
+  .column-left-address {
+    font-size: 15px;
+  }
+  .column-center {
+    width: 100%; /* Ensure it takes full width on smaller screens */
+    padding: 0 10px; /* Add padding for some spacing on smaller screens */
+    box-sizing: border-box; /* Ensure consistent sizing with padding */
+    margin: 0 auto; /* Center the column */
+  }
+
+  .column-left {
+    width: 100%; /* Ensure the left column also takes full width */
+    padding: 0 10px;
+    margin-left: 18vw; /* Adjust margin for smaller screens */
+    box-sizing: border-box;
+  }
+  .dropdown-field {
+    height: 35px;
+    font-size: 10px;
+    background-size: 6px;
+  }
+  .input-field,
+  .group-52,
+  .container-19,
+  .submit-button {
+    width: 100%; /* Reduce width */
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .frame-52 {
+    width: 70vw;
+    margin-left: 8vw;
+  }
+
+  .input-field {
+    height: 35px; /* Adjust input height */
+  }
+  .frame-51 {
+    text-align: center;
+  }
+  .textarea.input-field {
+    height: 130px;
+  }
+
+  .submit-button {
+    font-size: 16px; /* Reduce font size */
+    padding: 8px 0; /* Adjust padding */
+    width: 90%; /* Reduce width */
+  }
+
+  .contact {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .inquiry {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .download-icons {
+    margin-top: 10px;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .infomercellinie-com {
+    margin-bottom: 25px;
+  }
+  .infomercellinie-com,
+  .container,
+  .column-left-address {
+    font-size: 4vw;
+  }
+  .location,
+  .general-query,
+  .phone-number-1 {
+    font-size: 6vw;
+  }
+
+  .container {
+    margin-bottom: 25px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .download-icons {
+    margin-top: 10px;
+    width: 95%;
+  }
+  .frame-51 {
+    text-align: center;
+    margin-left: 9vw !important;
+    width: 93% !important;
+  }
+  .columns-container {
+    margin-left: -2vw;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact {
+    margin-top: 45px;
+    font-size: 30px;
+  }
+
+  .columns-container {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .group-52,
+  .submit-button {
+    width: 80vw;
+    margin: 0 20px !important;
+    font-size: 12px;
+    padding: 0 9px;
+  }
+
+  .layer-1 {
+    margin: 0 20px;
+  }
+
+  .vector-container {
+    align-items: center;
+  }
+  .infomercellinie-com,
+  .container-phone,
+  .column-left-address {
+    font-size: 15px;
+  }
+  .column-center {
+    width: 100%; /* Ensure it takes full width on smaller screens */
+    padding: 0 10px; /* Add padding for some spacing on smaller screens */
+    box-sizing: border-box; /* Ensure consistent sizing with padding */
+    margin: 0 auto; /* Center the column */
+  }
+
+  .column-left {
+    width: 100%; /* Ensure the left column also takes full width */
+    padding: 0 10px;
+    margin-left: 18vw; /* Adjust margin for smaller screens */
+    box-sizing: border-box;
+  }
+  .dropdown-field {
+    height: 35px;
+    font-size: 10px;
+    background-size: 6px;
+  }
+  .input-field,
+  .group-52,
+  .container-19,
+  .submit-button,
+  .frame-51 {
+    width: 100%; /* Reduce width */
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .frame-52 {
+    width: 70vw;
+    margin-left: 8vw;
+  }
+
+  .input-field {
+    height: 35px; /* Adjust input height */
+  }
+  .frame-51 {
+    text-align: center;
+    margin-left: 7vw;
+    width: 93%;
+  }
+  .textarea.input-field {
+    height: 130px;
+  }
+
+  .submit-button {
+    font-size: 16px; /* Reduce font size */
+    padding: 8px 0; /* Adjust padding */
+    width: 90%; /* Reduce width */
+  }
+
+  .contact {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .inquiry {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .download-icons {
+    margin-top: 10px;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .infomercellinie-com {
+    margin-bottom: 25px;
+  }
+  .infomercellinie-com,
+  .container,
+  .column-left-address {
+    font-size: 4vw;
+  }
+  .location,
+  .general-query,
+  .phone-number-1 {
+    font-size: 6vw;
+  }
+
+  .container {
+    margin-bottom: 25px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .vector-1 {
+    width: 95%;
+    margin: 0; /* Adjust width for larger screens */
+  }
+}
+
+/* For screen width 2240px and above */
+@media (min-width: 2240px) {
+  .vector-1 {
+    width: 95%; /* Adjust width for larger screens */
+  }
+}
+
+/* For screen width 1440px to 2239px */
+@media (min-width: 1440px) and (max-width: 2239px) {
+  .vector-1 {
+    width: 95%; /* Adjust width for large screens */
+  }
+}
+
+/* For screen width 1240px to 1439px */
+@media (min-width: 1240px) and (max-width: 1439px) {
+  .vector-1 {
+    width: 95%; /* Adjust width for medium-large screens */
+  }
+}
+
+/* For screen width 768px to 1239px */
+@media (min-width: 768px) and (max-width: 1239px) {
+  .vector-1 {
+    width: 95%; /* Adjust width for medium screens */
+  }
+}
+
+/* For screen width 375px to 767px */
+@media (min-width: 426px) and (max-width: 767px) {
+  .vector-1 {
+    width: 95%; /* Adjust width for small screens */
+  }
+}
+
+/* For screen width below 375px */
+@media (max-width: 374px) {
+  .vector-1 {
+    width: 90%; /* Adjust width for very small screens */
+  }
+}
+
+/* For screen width 1440px to 2239px */
+@media (min-width: 1440px) and (max-width: 2239px) {
+  /* Increase font size and spacing for larger screens */
+  .contact {
+    font-size: 110px; /* Increase contact title size */
+    margin-top: 80px; /* Add more margin */
+  }
+
+  .inquiry {
+    font-size: 35px; /* Increase inquiry text size */
+    margin-bottom: 40px; /* Increase bottom margin */
+  }
+
+  .vector-1 {
+    width: 95%; /* Adjust width for large screens */
+    max-width: 1500px; /* Limit vector width */
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 16px; /* Increase icon size */
+    height: 16px;
+  }
+
+  .input-field {
+    font-size: 17px; /* Increase input field font size */
+    height: 45px; /* Increase input field height */
+  }
+
+  textarea.input-field {
+    height: 250px; /* Increase textarea height */
+  }
+
+  .submit-button {
+    font-size: 22px; /* Increase font size */
+    padding: 12px 0; /* Adjust padding */
+    width: 100%;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 22px; /* Increase footer font size */
+  }
+
+  .footer {
+    padding: 40px 70px;
+    padding-right: 4%; /* Increase footer padding */
+  }
+
+  .download-icons {
+    width: 400px; /* Increase container width */
+    padding-right: 4%;
+    gap: 34px; /* Increase space between icons */
+  }
+
+  .vector-2,
+  .vector-3,
+  .vector-4,
+  .vector-5,
+  .vector-6 {
+    width: 24px; /* Increase icon size */
+    height: 24px;
+  }
+}
+
+/* For screen width 2240px and above */
+@media (min-width: 2240px) {
+  .contact {
+    font-size: 140px; /* Even larger for bigger screens */
+    margin-top: 100px;
+  }
+
+  .inquiry {
+    font-size: 40px; /* Increase inquiry text size */
+    margin-bottom: 50px;
+  }
+
+  .vector-1 {
+    width: 95%; /* Adjust width for very large screens */
+    max-width: 1800px; /* Limit vector width */
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 18px; /* Increase icon size */
+    height: 18px;
+  }
+
+  .input-field,.dropdown-field  {
+    font-size: 20px; /* Larger font size */
+    height: 70px; /* Increase input field height */
+  }
+
+  textarea.input-field {
+    height: 300px; /* Larger textarea */
+  }
+
+  .submit-button {
+    font-size: 24px; /* Increase font size */
+    padding: 16px 0; /* Adjust padding */
+    width: 100%;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 26px; /* Larger footer text */
+  }
+
+  .footer {
+    padding: 50px 80px; /* Increase footer padding */
+  }
+
+  .download-icons {
+    width: 500px; /* Increase container width */
+    padding-right: 100px;
+    gap: 40px; /* Increase space between icons */
+  }
+
+  .vector-2,
+  .vector-3,
+  .vector-4,
+  .vector-5,
+  .vector-6 {
+    width: 28px; /* Increase icon size */
+    height: 28px;
+  }
+}
+
+/* For screen width 1240px to 1439px */
+@media (min-width: 1240px) and (max-width: 1439px) {
+  .contact {
+    font-size: 90px; /* Slightly larger font */
+    margin-top: 60px;
+  }
+
+  .inquiry {
+    font-size: 30px; /* Increase inquiry text size */
+    margin-bottom: 30px;
+  }
+
+  .vector-1 {
+    width: 90%; /* Adjust width for medium-large screens */
+    max-width: 1200px;
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 14px; /* Adjust icon size */
+    height: 14px;
+  }
+
+  .input-field {
+    font-size: 16px; /* Adjust font size */
+    height: 55px;
+  }
+
+  textarea.input-field {
+    height: 200px; /* Adjust textarea height */
+  }
+
+  .submit-button {
+    font-size: 20px; /* Increase font size */
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 20px; /* Adjust footer text */
+  }
+
+  .footer {
+    padding: 30px 50px; /* Adjust footer padding */
+  }
+
+  .download-icons {
+    width: 350px; /* Adjust container width */
+    padding-right: 60px;
+    gap: 20px; /* Adjust space between icons */
+  }
+
+  .vector-2,
+  .vector-3,
+  .vector-4,
+  .vector-5,
+  .vector-6 {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+  }
+}
+
+/* For screen width 1440px to 2239px */
+@media (min-width: 1440px) and (max-width: 2239px) {
+  /* Increase font size and spacing for larger screens */
+  .contact {
+    font-size: 90px; /* Increase contact title size */
+    margin-top: 80px; /* Add more margin */
+  }
+
+  .inquiry {
+    font-size: 30px; /* Increase inquiry text size */
+    margin-bottom: 30px; /* Increase bottom margin */
+  }
+
+  .vector-1 {
+    width: 100%; /* Adjust width for large screens */
+    max-width: 1500px; /* Limit vector width */
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 11px; /* Increase icon size */
+    height: 11px;
+  }
+
+  textarea.input-field {
+    height: 260px; /* Increase textarea height */
+  }
+
+  .submit-button {
+    font-size: 24px; /* Increase font size */
+    padding: 16px 0; /* Adjust padding */
+    width: 100%;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 24px; /* Increase footer font size */
+  }
+
+  .footer {
+    padding: 40px 70px; /* Increase footer padding */
+  }
+
+  .vector-2,
+  .vector-3,
+  .vector-4,
+  .vector-5,
+  .vector-6 {
+    width: 24px; /* Increase icon size */
+    height: 24px;
+  }
+}
+
+/* For screen width 2240px and above */
+@media (min-width: 2240px) {
+  .contact {
+    font-size: 140px; /* Even larger for bigger screens */
+    margin-top: 100px;
+  }
+
+  .inquiry {
+    font-size: 45px; /* Increase inquiry text size */
+    margin-bottom: 60px;
+  }
+
+  .vector-1 {
+    width: 100%; /* Adjust width for very large screens */
+    max-width: 1800px; /* Limit vector width */
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 24px; /* Increase icon size */
+    height: 24px;
+  }
+
+  .input-field,.dropdown-field  {
+    font-size: 22px; /* Larger font size */
+    height: 75px; /* Increase input field height */
+  }
+
+  textarea.input-field {
+    height: 320px; /* Larger textarea */
+  }
+
+  .submit-button {
+    font-size: 28px; /* Increase font size */
+    padding: 18px 0; /* Adjust padding */
+    width: 100%;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 28px; /* Larger footer text */
+  }
+
+  .footer {
+    padding: 60px 90px; /* Increase footer padding */
+  }
+
+  .download-icons {
+    width: 500px; /* Increase container width */
+    padding-right: 76px;
+    gap: 40px; /* Increase space between icons */
+  }
+
+  .vector-2,
+  .vector-3,
+  .vector-4,
+  .vector-5,
+  .vector-6 {
+    width: 32px; /* Increase icon size */
+    height: 32px;
+  }
+}
+
+/* For screen width 1240px to 1439px */
+@media (min-width: 1240px) and (max-width: 1439px) {
+  .contact {
+    font-size: 100px; /* Slightly larger font */
+    margin-top: 70px;
+  }
+
+  .inquiry {
+    font-size: 35px; /* Increase inquiry text size */
+    margin-bottom: 40px;
+  }
+
+  .vector-1 {
+    width: 95%; /* Adjust width for medium-large screens */
+    max-width: 1300px;
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 16px; /* Adjust icon size */
+    height: 16px;
+  }
+
+  .input-field {
+    font-size: 18px; /* Adjust font size */
+    height: 55px;
+  }
+
+  textarea.input-field {
+    height: 220px; /* Adjust textarea height */
+  }
+
+  .submit-button {
+    font-size: 22px; /* Increase font size */
+    padding: 12px 0;
+    width: 100%;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 22px; /* Adjust footer text */
+  }
+
+  .footer {
+    padding: 35px 55px; /* Adjust footer padding */
+  }
+
+  .download-icons {
+    width: 350px; /* Adjust container width */
+    padding-right: 50px;
+    gap: 25px; /* Adjust space between icons */
+  }
+
+  .vector-2,
+  .vector-3,
+  .vector-4,
+  .vector-5,
+  .vector-6 {
+    width: 22px; /* Adjust icon size */
+    height: 22px;
+  }
+}
+
+/* For screen width 1025px to 1074px */
+@media (min-width: 1025px) and (max-width: 1074px) {
+  /* Apply the same styles as for 1075px and above */
+
+  .columns-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+/*--------------------*/

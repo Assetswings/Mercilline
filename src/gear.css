@@ -1,0 +1,186 @@
+.gear-container {
+  background-color: #000000;
+  position: relative;
+  padding-bottom: 5%;
+}
+
+.gear-heading {
+  width: 100%;
+  position: relative;
+  height: 300vh;
+  padding-top: 7%;
+}
+
+.gear-power {
+  width: 100%;
+  height: 35vh;
+  background-image: url("./assets/Power.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: sticky;
+  top: 2%; 
+  z-index: 0;
+  transform: scale(0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.gear-power.full-size {
+  transform: scale(1.2); /* Final scale */
+}
+
+.gear2 {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 10%;
+}
+
+.gear-pic {
+  width: 80%;
+  transition: transform 0.5s ease;
+  position: absolute;
+}
+
+.gear-text {
+  text-align: center;
+}
+
+.gear-para {
+  color: #ffdd33;
+  margin: 0;
+  padding-top: 35%;
+  font-family: "FontRegular";
+}
+
+.font-watt {
+  font-family: "FontLight";
+  font-size: 70px;
+}
+
+.kilowatt-space {
+  font-size: 40px;
+  font-family: "FontLight";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gear-watt,
+.gear-torque {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "JetBrains Mono", monospace;
+  opacity: 1; /* Initially hidden */
+  position: absolute;
+  transition: opacity 1.5s ease-out, left 1.5s ease-out, right 1.5s ease-out; /* Smooth transitions */
+}
+
+.gear-watt {
+  left: 20%; /* Initially centered */
+  padding-top: 25%;
+}
+
+.gear-torque {
+  right: 20%; /* Initially centered */
+  padding-top: 25%;
+}
+
+.gear-setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 1rem;
+  padding-top: 13%;
+  position: relative; /* Ensure it’s positioned relative to its container */
+}
+
+.gear-watt.final-position,
+.gear-torque.final-position {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 320px) {
+  .gear-watt.final-position {
+    transform: translate(-300px, 0); /* Move to the left of the gear-pic */
+    opacity: 0; /* Fully visible */
+  }
+
+  .gear-torque.final-position {
+    transform: translate(300px, 0); /* Move to the right of the gear-pic */
+    opacity: 0; /* Fully visible */
+  }
+
+  .gear-para {
+    padding-top: 50% !important;
+  }
+  .gear-watt,
+  .gear-torque {
+    font-size: 20px !important;
+    padding-top: 0%;
+  }
+  .gear-watt {
+    left: 10% !important;
+    opacity: 1 !important;
+  }
+  .gear-torque {
+    right: 10% !important;
+    opacity: 1 !important;
+  }
+  .gear-setting {
+    padding-top: 0%;
+  }
+  .font-watt {
+    font-size: 40px;
+  }
+  .gear2 {
+    position: relative;
+    top: -20%;
+  }
+  .gear-heading {
+    height: 24vh;
+    padding-top: 3%;
+  }
+  .gear-para {
+    padding-top: 10%;
+  }
+  .gear-power {
+    height: 20vh;
+    transform: none !important;
+    opacity: 1 !important;
+    position: static;
+  }
+  .gear-pic{
+    width:95%;
+  }
+  .font-1{
+    font-size: 35px;
+  }
+  .font-4{
+    font-size: 35px;
+  }
+  .font-7{
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+  .gear-watt {
+    left: 15%;
+  }
+  .gear-torque {
+    right: 10%;
+  }
+  .font-watt {
+    font-size: 40px;
+  }
+  .gear-watt,
+  .gear-torque {
+    font-size: 25px;
+  }
+}
+

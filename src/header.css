@@ -1,0 +1,427 @@
+.splitting .word {
+  white-space: nowrap;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: relative;
+  padding: var(--page-padding);
+}
+
+.content--full {
+  padding: 0;
+}
+
+.content__title {
+  font-size: 12vw;
+  line-height: 0.8;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+
+
+.char-wrap {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes loaderAnim {
+  to {
+    opacity: 1;
+    transform: scale3d(0.5, 0.5, 2);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+  outline: none;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  outline: none;
+}
+
+a:focus {
+  outline: none;
+  background: lightgrey;
+}
+
+a:focus:not(:focus-visible) {
+  background: transparent;
+}
+
+a:focus-visible {
+  outline: 2px solid red;
+  background: transparent;
+}
+
+.link {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.link--helike {
+  position: relative; /* Ensure the parent container is positioned */
+  display: inline-block; /* Ensure proper spacing */
+}
+
+.link--helike:hover span {
+  animation: glitchText 0.4s linear;
+  color: #ffdd33;
+}
+
+@keyframes glitchText {
+  0% {
+    opacity: 1;
+    transform: translate3d(-10px, 0, 0) scale3d(-1, -1, 1);
+    -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
+    clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
+  }
+  10% {
+    -webkit-clip-path: polygon(0 33%, 100% 33%, 100% 33%, 0 33%);
+    clip-path: polygon(0 33%, 100% 33%, 100% 33%, 0 33%);
+  }
+  20% {
+    -webkit-clip-path: polygon(0 44%, 100% 44%, 100% 44%, 0 44%);
+    clip-path: polygon(0 44%, 100% 44%, 100% 44%, 0 44%);
+  }
+  35% {
+    -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 20%, 0 20%);
+    clip-path: polygon(0 50%, 100% 50%, 100% 20%, 0 20%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0 70%, 100% 70%, 100% 70%, 0 70%);
+    clip-path: polygon(0 70%, 100% 70%, 100% 70%, 0 70%);
+  }
+  60% {
+    -webkit-clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
+    clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
+  }
+  70% {
+    -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%);
+    clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%);
+  }
+  80% {
+    -webkit-clip-path: polygon(0 70%, 100% 70%, 100% 80%, 0 80%);
+    clip-path: polygon(0 70%, 100% 70%, 100% 80%, 0 80%);
+  }
+  90% {
+    transform: translate3d(-10px, 0, 0) scale3d(-1, -1, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+.link--helike::before {
+  height: 2px;
+  opacity: 0;
+  background-color: #ffdd33;
+  width: 100%;
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust this to place the line below the text */
+  left: 0;
+}
+
+.link--helike:hover::before {
+  opacity: 1;
+  animation: glitchLine 0.4s steps(2, start) forwards;
+}
+
+@keyframes glitchLine {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  10% {
+    transform: translate3d(10px, 0, 0);
+  }
+  20% {
+    transform: translate3d(0, 4px, 0);
+  }
+  30% {
+    transform: scale3d(0.1, 1.4, 1) translate3d(0, -25px, 0);
+    transform-origin: 100% 0%;
+  }
+  40% {
+    transform: scale3d(1, 0.3, 1) translate3d(0, 25px, 0);
+  }
+  50% {
+    transform: scale3d(0.5, 0.3, 1) translate3d(-100px, -80px, 0);
+  }
+  60% {
+    transform: scale3d(1, 1.25, 1) translate3d(10px, -5px, 0);
+  }
+  70% {
+    transform: scale3d(0.5, 0.5, 1) translate3d(0, 20px, 0);
+  }
+  80% {
+    transform: translate3d(-30px, 10px, 0) scale3d(1, 0.4, 1);
+    transform-origin: 100% 0%;
+  }
+  90% {
+    transform: scale3d(1, 0.5, 1) translate3d(0, -15px, 0);
+    transform-origin: 0% 50%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.layer-1 {
+  max-width: 133px;
+  height: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1284.7px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 99;
+  padding: 40px 60px;
+}
+
+.about-contact1 {
+  margin: 2px 0 4px 0;
+  overflow-wrap: break-word;
+  font-family: "FontJetbrains";
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-link,
+.contact-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  margin: 0 20px;
+}
+
+.about-link::after,
+.contact-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.about-link:hover::after,
+.contact-link:hover::after {
+  width: 100%;
+  color: #ffdd33;
+}
+
+.separator1 {
+  margin: 0 30px;
+}
+
+/* New styles for responsive hamburger menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #ffdd33;
+  transition: all 0.3s ease;
+}
+
+.hamburger .bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger .bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger .bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-contact1 {
+    display: none; /* Hide navigation links initially on small screens */
+    font-size: 25px;
+  }
+
+  .layer-1 {
+    justify-content: flex-start;
+    display: flex;
+    height: 25px;
+    max-width: 90px;
+    margin: 20px 20px !important; /* Ensure the logo stays on the left and add margin */
+  }
+
+  .hamburger {
+    display: flex;
+    height: 14px;
+    width: 20px;
+    padding-right: 25px;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    width: 85%;
+    background-color: #171717;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    border-radius: 25px;
+  }
+  .nav-menu.open {
+    display: flex; /* Show the menu when hamburger is clicked */
+  }
+
+  .nav-menu .about-contact1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-menu .about-link,
+  .nav-menu .contact-link {
+    margin: 15px 0;
+  }
+  /* .header{
+    position: static !important;
+  } */
+}
+
+/* Always keep logo on the left, even below 600px */
+@media (max-width: 600px) {
+  .layer-1 {
+    justify-content: flex-start;
+    display: flex;
+    height: 20px;
+    margin: 20px 20px !important; /* Ensure the logo stays on the left and add top margin */
+  }
+}
+
+@media (max-width: 375px) {
+  .layer-1 {
+    justify-content: flex-start;
+    display: flex;
+    height: 20px;
+    max-width: 70px;
+    margin: 20px 20px !important; /* Ensure the logo stays on the left and add top margin */
+  }
+
+  .hamburger {
+    display: flex;
+    height: 14px;
+    width: 20px;
+  }
+}
+
+/* Add top margin for screens between 768px and 1240px */
+@media (min-width: 768px) and (max-width: 1240px) {
+  .header {
+    justify-content: space-between; /* Keep logo and hamburger at edges */
+    padding: 20px 40px; /* Adjust padding for spacing */
+    /* Add top margin */
+    max-width: 100%; /* Allow header to take full width */
+    width: 100vw; /* Ensure header spans the full viewport width */
+  }
+  .layer-1 {
+    height: 25px;
+    margin-left: 0; /* Ensure the logo stays at the far left */
+  }
+
+  .hamburger {
+    margin-right: 0; /* Ensure the hamburger stays at the far right */
+  }
+}
+
+/* Header for larger screens (1240px and above) */
+@media (min-width: 1240px) {
+  .header {
+    justify-content: space-between; /* Keep logo and hamburger at edges */
+    padding: 40px 60px; /* Add more padding to create spacing */
+    max-width: 100%; /* Allow header to take full width */
+    width: 100vw; /* Ensure header spans the full viewport width */
+    margin-top: 20px; /* Add top margin for screens larger than 1240px */
+  }
+  .layer-1 {
+    height: 30px;
+    margin-left: 0; /* Ensure the logo stays at the far left */
+  }
+
+  .hamburger {
+    margin-right: 0; /* Ensure the hamburger stays at the far right */
+  }
+}
+
+/* Header for screens larger than 1440px */
+@media (min-width: 1440px) {
+  .header {
+    justify-content: space-between;
+    padding: 15px 80px;
+    max-width: 100%;
+    width: 100vw;
+    margin-top: 20px; /* Add more top margin for larger screens */
+  }
+  .layer-1 {
+    height: 35px;
+    margin-left: 0;
+  }
+
+  .hamburger {
+    margin-right: 0;
+  }
+}
+
+/* Header for screens larger than 2240px */
+@media (min-width: 1440px) and (max-width: 2450px) {
+  .header {
+    justify-content: space-between;
+    padding: 40px 100px;
+    max-width: 100%;
+    width: 100vw;
+    margin-top: 50px; /* Add more top margin for very large screens */
+  }
+
+  .layer-1 {
+    height: 40px;
+    margin-left: 0;
+  }
+
+  .hamburger {
+    margin-right: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .header {
+    padding: 5px 30px;
+  }
+}

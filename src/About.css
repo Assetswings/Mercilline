@@ -1,0 +1,2097 @@
+/* Initial state of elements */
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* When elements are in view, they animate */
+.animate-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+.top-background {
+  background-image: url("./assets/TopBG.png");
+  background-size: cover;
+  object-fit: contain;
+  height: 50vh !important;
+  width: 100%;
+}
+
+.about .container-our-approach {
+  margin-bottom: 90.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  margin-right: 12.2px;
+  font-family: "FontJetbrains";
+  max-width: 300px;
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #ffdd33;
+}
+
+.about .group-21 {
+  opacity: 0.5;
+  margin-bottom: 290.3px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* Avoid fixed width */
+  max-width: 1280px;
+  /* Limit the maximum width */
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.rectangle-1550,
+.rectangle-1549,
+.rectangle-1548 {
+  border: 1px solid #ffdd33;
+  width: 12px;
+  height: 12px;
+}
+
+.about .group-18 {
+  margin: 80vh auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.about .container-who {
+  border: none;
+  overflow-wrap: break-word;
+  font-family: "FontJetbrains";
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #ffdd33;
+}
+
+.about .who-we-are {
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #ffdd33;
+}
+
+.about .group-49 {
+  margin: 5% 0 0 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  height: 1%;
+  justify-content: center;
+}
+
+.about .innovators {
+  margin: 0 1px 13px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about .in-motion {
+  margin-bottom: 33px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 0.875;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about .at-mercellenie {
+  margin-bottom: 60px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "FontInterthin";
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1.4;
+  max-width: 550px;
+  color: #f2f2f2;
+}
+
+.about .group-48 {
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  height: 1%;
+  justify-content: center;
+}
+
+.about .we-believe {
+  margin-bottom: 60px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "FontInterthin";
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1.4;
+  max-width: 515px;
+  color: #f2f2f2;
+}
+
+.about .container-2 {
+  position: relative;
+  border: 0px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  /* Limit maximum width */
+  box-sizing: border-box;
+  margin: 0 auto;
+  /* Center the container */
+}
+
+.about .electrifying,
+.about .the-thrill,
+.about .of-riding,
+.about .transforming {
+  will-change: transform;
+}
+
+.about .about-image {
+  mix-blend-mode: luminosity;
+  background: linear-gradient(rgba(26, 26, 26, 0.17), rgba(26, 26, 26, 0.17)),
+    url("/src/assets/mercellenie-about2.png") 50% / cover no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 23vh;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 80vh;
+}
+
+.about .electrifying {
+  position: absolute;
+  left: 80px;
+  top: 15vh;
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 0.885;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about .the-thrill {
+  position: absolute;
+  left: 80px;
+  top: 32vh;
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 0.885;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about .of-riding {
+  position: absolute;
+  top: 95vh;
+  right: 80px;
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 0.885;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about .transforming {
+  position: absolute;
+  top: 75vh;
+  right: 78px;
+  text-align: right;
+  overflow-wrap: break-word;
+  font-family: "FontRegular";
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about {
+  background: #000000;
+  display: flex;
+  width: 100%;
+  /* Set to 100% to avoid exceeding viewport */
+  max-width: 100%;
+  /* Prevent any overflow */
+  box-sizing: border-box;
+  overflow-x: hidden;
+  /* Hide any accidental horizontal overflow */
+  overflow-y: hidden; /* Make sure no vertical scroll happens on accidental overflows */
+  position: relative; /* Required for parallax positioning */
+}
+
+/*-----------------*/
+
+/* Base Styles for small screens (320px and up) */
+.about .power-style-efficiency {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* Ensure it takes full width */
+  max-width: 90%;
+  /* Prevent any overflow */
+  margin: 50px auto;
+  /* Center it horizontally */
+  box-sizing: border-box;
+  padding-left: 10px;
+  /* Padding on small screens */
+  padding-right: 10px;
+}
+
+/* Text Styling */
+.about .power,
+.about .style,
+.about .efficiency {
+  font-family: "FontRegular";
+  font-size: 20px;
+  /* Default font size for smaller screens */
+  color: #ffdd33;
+  /* Yellow color */
+  text-transform: uppercase;
+}
+
+/* Separator Styling */
+.about .separator-left {
+  flex-grow: 1;
+  /* Allow the separator to grow and fill available space */
+  height: 1px;
+  background-color: #ffdd33;
+  /* Yellow line */
+  margin: 0 10px;
+  /* Space around the line */
+}
+
+.about .separator-right {
+  flex-grow: 1;
+  /* Allow the separator to grow and fill available space */
+  height: 1px;
+  background-color: linear-gradient(180deg, rgba(29, 29, 29, 0.53), #060606);
+  margin: 0 10px;
+  /* Space around the line */
+}
+
+/* Responsive Styles */
+
+/*-----------------*/
+/* Normal screen styles (default layout for wider screens) */
+.passion-meets-innovation {
+  display: flex;
+  flex-direction: row;
+  /* Side by side layout */
+  justify-content: space-between;
+  align-items: stretch;
+  /* Ensure both children stretch to the same height */
+  width: 100%;
+  height: 100vh;
+  /* Full viewport height */
+}
+
+.screenshot-image {
+  flex: 1;
+  /* Make the image container take half the width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* Ensure the image container takes full height */
+}
+
+.screenshot-image img {
+  width: 100%;
+  height: 100%;
+  /* Image also takes full height */
+  object-fit: cover;
+  /* Ensures the image scales and crops appropriately */
+}
+
+.innovation-text {
+  flex: 1;
+  /* Make the text container take half the width */
+  background-color: #ffdd33;
+  /* Background color for the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Space between title and paragraph */
+  padding: 40px;
+  text-align: left;
+  position: relative;
+}
+
+.innovation-text h1 {
+  font-size: 48px;
+  /* Larger heading size */
+  line-height: 1.2;
+  margin: 0;
+}
+
+.innovation-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 85%;
+  margin-top: auto;
+  /* Push the paragraph to the bottom */
+  margin-bottom: 0;
+  /* Remove default margin */
+}
+.discover-effect {
+  transform: translateY(50%); /* Initial position */
+  transition: transform 0.3s ease-out; /* Smooth scroll effect */
+}
+
+/*-----*/
+.about .why-choose-us {
+  display: flex;
+  color: #e4e4e4;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 40px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  margin-bottom: 170px;
+  /* Increased margin-bottom to add more space below */
+}
+
+.about .why-text {
+  flex: 1;
+  padding-right: 50px;
+  max-width: 60%;
+}
+
+.about .section-number {
+  font-family: "FontJetbrains";
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffdd33;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  justify-content: left;
+}
+
+.about .why-text h2 {
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 45px;
+  color: #ffffff;
+  line-height: 1.2;
+  max-width: 500px;
+}
+
+.about .why-icons {
+  /* flex: 1;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 50px;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 50%;
+  transform: translate(20px, 10px); */
+}
+
+.about .icon-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* Increased space between icon and text */
+}
+
+.about .icon-frame {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.about .about-vector {
+  width: 9%;
+  height: 46%;
+  object-fit: contain;
+  position: absolute;
+  top: 27%;
+  left: 3.5%;
+}
+
+.about .icon-text h3 {
+  font-family: "FontLight";
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  /* Increased space between h3 and p */
+}
+
+.about .icon-text p {
+  font-family: "FontLight";
+  font-weight: 300;
+  font-size: 20px;
+  color: #bbbbbb;
+  margin: 0;
+  max-width: 300px;
+}
+
+.about .icon-text-growing-demand p {
+  font-family: "FontLight";
+  font-weight: 300;
+  font-size: 19px;
+  color: #ffffff;
+  margin: 0;
+  max-width: 400px !important;
+}
+
+/*-------------------*/
+
+.image-text-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* Full viewport height */
+  overflow: hidden;
+}
+
+.mercelline-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* Ensures the image covers the container */
+}
+
+.overlay-text {
+  transform: translateY(20%); /* Initial position */
+  transition: transform 0.3s ease-out; /* Smooth transition */
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-family: "FontRegular";
+  font-size: 35px;
+  line-height: 1.4;
+  max-width: 650px;
+  padding-left: 40px;
+}
+
+.overlay-text .highlight {
+  color: #ffdd33; /* Yellow highlight */
+}
+
+/*----------------------*/
+
+.milestones-section {
+  width: 100%;
+  padding: 50px 20px;
+  padding-left: 200px !important;
+  background: #101010;
+  color: #e4e4e4;
+  padding: 0 !important;
+}
+
+.section-title {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-top: 6vh;
+  margin-left: 5vw;
+}
+
+.milestone-number {
+  font-family: "FontJetbrains";
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffdd33;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  justify-content: left;
+}
+
+.section-title h2 {
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.section-title h2 {
+  font-family: "FontRegular";
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 42px;
+  color: #ffffff;
+  line-height: 1.2;
+  max-width: 400px;
+  margin-bottom: 140px;
+}
+
+.milestones {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* Increased gap between milestone items */
+  position: relative;
+  padding-left: 140px;
+  margin-bottom: 16vh;
+}
+
+.milestones::before {
+  content: "";
+  position: absolute;
+  left: 270px;
+  /* Position of the vertical line */
+  top: 0;
+  bottom: -50px;
+  width: 0.8px;
+  /* Thickness of the vertical line */
+  background-color: #757575;
+  /* Line color */
+}
+
+.milestone {
+  display: flex;
+  align-items: flex-start;
+  /* Align year and milestone text on the same line */
+  position: relative;
+}
+
+.year {
+  font-family: "FontRegular";
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 27px;
+  color: #ffdd33;
+  min-width: 90px;
+  padding-right: 10px;
+  text-align: right;
+  position: relative;
+  text-wrap: wrap;
+}
+
+.year::before {
+  content: "";
+  position: absolute;
+  margin-top: 12px;
+  top: 50%;
+  right: -30px;
+  width: 30px;
+  height: 1px;
+  background-color: #757575;
+  transform: translateY(-50%);
+}
+
+.milestone-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  /* Add spacing between the year and milestone text */
+}
+
+.milestone-text h3 {
+  font-family: "FontRegular";
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 2%;
+}
+
+.milestone-text p {
+  font-family: "FontInterthin";
+  font-size: 20px;
+  color: #e7e7e7;
+  margin: 0;
+  max-width: 75%;
+  line-height: 1.6;
+}
+
+.footer-vector {
+  width: 100%;
+  background-color: linear-gradient(180deg, rgba(29, 29, 29, 0.53), #060606);
+  background: url("/src/assets/Group34.png") no-repeat center bottom;
+  /* Update this path */
+  background-size: cover;
+  background-position: center 10%;
+  /* Moves the image up by adjusting the vertical position */
+}
+
+.footer {
+  background: none;
+}
+
+.footer .mercellinie,
+.footer .privacy-policy,
+.footer .made-by-wings {
+  font-size: 18px;
+}
+.made-by-wings {
+  opacity: 0.7;
+}
+
+.download-icons img {
+  width: 20px;
+  /* Reduce the width of the icons */
+  height: 20px;
+  /* Maintain aspect ratio by setting equal height */
+}
+
+.download-icons {
+  padding-left: 10px;
+  /* Adds padding to move all icons slightly to the right */
+}
+
+.download-icons div {
+  margin-right: 10px;
+  /* Increase space between each icon */
+}
+
+/* Last icon does not need a margin on the right */
+.download-icons div:last-child {
+  margin-right: 0;
+}
+
+.made-by-wings {
+  color: #d4af37; /* Gold color for a royal feel */
+  text-decoration: none; /* No underline */
+  position: relative;
+  font-size: 1.5rem; /* Adjust based on your design */
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px; /* Slightly increase letter spacing for elegance */
+}
+
+.made-by-wings:hover {
+  color: #d4af37; /* Keep the gold color on hover */
+  transform: translateY(-2px); /* Small upward movement for subtle animation */
+}
+
+.made-by-wings::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(212, 175, 55, 0) 0%,
+    #d4af37 50%,
+    rgba(212, 175, 55, 0) 100%
+  );
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.made-by-wings:hover::before {
+  width: 100%; /* Expand the underline */
+}
+
+.made-by-wings::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.made-by-wings:hover::after {
+  opacity: 1; /* Add a shimmer effect on hover */
+}
+
+.container-who {
+  font-size: 2rem; /* Adjust as needed */
+  text-align: center; /* Optional, if you want the text centered */
+}
+
+/*-----------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 430px) {
+  .top-background {
+    height: 46vh !important;
+  }
+  .about .group-21 {
+    flex-direction: column;
+    /* Stack items vertically */
+    width: 100%;
+    /* Take full width */
+    margin-bottom: 100px;
+    /* Reduce the margin to fit better on small screens */
+  }
+
+  .about .group-21 div {
+    width: 40px;
+    /* Reduce the size of rectangles */
+    height: 40px;
+    /* Reduce height to keep proportions */
+    margin-bottom: 10px;
+    /* Add margin between rectangles */
+  }
+
+  /* Adjustments for .section-1 */
+  .section-1 {
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .about .electrifying {
+    left: 6vw;
+    top: 13vh;
+    font-size: 95px;
+    line-height: 0.885;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .about .the-thrill {
+    left: 6vw;
+    top: 18vh;
+    font-size: 95px;
+    line-height: 0.885;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .about .of-riding {
+    top: 44vh !important;
+    right: 9vw !important;
+  }
+
+  .section-1 .electrifying,
+  .section-1 .the-thrill,
+  .section-1 .of-riding {
+    font-size: 25px !important;
+    /* Reduce font size for better mobile view */
+    line-height: 1.1;
+    margin: 10px 0;
+  }
+
+  .section-1 .transforming {
+    font-size: 12px !important;
+    line-height: 1.4;
+    margin-top: 10px;
+    top: 32vh;
+    right: 9vw;
+  }
+
+  .about .about-image {
+    width: 65% !important;
+    /* Make sure it takes full width */
+    top: 80px !important;
+    height: 30vh !important;
+    /* Adjust positioning */
+    background-size: cover !important;
+    /* Ensure the image is contained properly */
+    margin-top: 10px !important;
+    /* Add space above */
+  }
+
+  .about .group-18 {
+    margin-top: 13vh;
+    width: 60px;
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  .group-49 {
+    justify-content: center !important;
+  }
+
+  .group-48 {
+    justify-content: center !important;
+    margin-bottom: 10px;
+    height: 35px !important;
+  }
+
+  .container-who,
+  .container-our-approach {
+    margin-top: 10px !important;
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .container-our-approach {
+  }
+
+  .innovators {
+    font-size: 12vw !important;
+  }
+
+  .about .at-mercellenie {
+    font-size: 5vw !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 15px;
+  }
+
+  .about .we-believe {
+    font-size: 5vw !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 30px;
+  }
+
+  .section-number {
+    font-size: 5vw !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 30px;
+  }
+
+  .about .power-style-efficiency {
+    display: flex;
+    align-items: center;
+    width: 96%;
+    max-width: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .passion-meets-innovation {
+    flex-direction: column;
+    /* Stack vertically */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* Allow the section to grow */
+  }
+
+  .screenshot-image {
+    margin-bottom: 20px;
+    /* Add space between image and text */
+  }
+
+  .screenshot-image img {
+    width: 80%;
+    height: auto;
+    /* Make image smaller and maintain aspect ratio */
+  }
+
+  .innovation-text {
+    padding: 20px;
+    text-align: center;
+    /* Center text */
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+  }
+
+  .innovation-text h1 {
+    font-size: 36px;
+    /* Adjust heading size */
+    margin: 0;
+    margin-bottom: 10px;
+    /* Add small margin to separate h1 and p */
+  }
+
+  .innovation-text p {
+    font-size: 14px;
+    /* Adjust paragraph size */
+    margin: 0;
+    max-width: 72vw;
+    margin-top: 5px;
+    /* Add small margin to reduce the gap between h1 and p */
+  }
+
+  .why-choose-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the children vertically */
+    padding: 0 !important;
+    margin-bottom: 15% !important;
+    /* Additional spacing at the bottom */
+  }
+
+  .why-choose-us .why-text {
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 20px;
+    width: 94%;
+    max-width: 100%;
+  }
+
+  .why-choose-us .section-number {
+    font-size: 16px;
+    /* Smaller font size for smaller screens */
+    color: #ffdd33;
+    /* Styling color to make it stand out */
+    display: block;
+    /* Ensure it is on its own line */
+  }
+
+  .why-choose-us .why-text h2 {
+    font-size: 20px;
+    /* Smaller heading for better fit */
+    margin-top: 5px;
+    /* Adjust spacing */
+    margin-bottom: 20px;
+    /* Additional space before icons start */
+  }
+
+  /* Adjust the icon layout to have image on the left and text on the right */
+  .why-choose-us .why-icons {
+    flex-direction: column;
+    align-items: stretch;
+    /* Stretch icons container to full width */
+    width: 100%;
+    display: flex;
+    padding: 0 !important;
+  }
+
+  .why-choose-us .icon-item {
+    display: flex;
+    flex-direction: row;
+    /* Ensure icons and text are side-by-side */
+    align-items: center;
+    /* Center items vertically */
+    margin-bottom: 15px;
+    /* Space between each icon and text group */
+    width: 100%;
+  }
+
+  .about .icon-frame {
+    width: 23%;
+    height: 66%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+
+  .why-choose-us .about-vector {
+    width: 10%;
+    height: 43%;
+    /* Maintain the aspect ratio of the vector image */
+    object-fit: contain;
+    /* Avoid stretching the image */
+  }
+
+  .why-choose-us .icon-text {
+    flex-grow: 1;
+    /* Allow the text to take the remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align text to the start (left) */
+  }
+
+  .why-choose-us .icon-text h3 {
+    font-size: 16px;
+    /* Slightly reduce the font size */
+    margin-bottom: 5px;
+    /* Space between the header and paragraph */
+  }
+
+  .why-choose-us .icon-text p {
+    font-size: 14px;
+    /* Suitable font size for clarity */
+    text-align: left;
+    /* Align the text to the left */
+  }
+
+  .image-text-container {
+    width: 100vw;
+    /* Full viewport width */
+    height: 34vh;
+    /* Adjust height to fit smaller screens */
+    position: relative;
+    overflow: hidden;
+    /* Ensure no overflow */
+  }
+
+  .mercelline-image {
+    width: 100%;
+    /* Ensure image takes full width */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: contain;
+    /* Make sure image fits the container */
+  }
+
+  .overlay-text {
+    position: absolute;
+    bottom: 10px;
+    /* Adjust text to sit closer to the bottom */
+    left: 10px;
+    /* Adjust padding to fit smaller screens */
+    font-size: 14px;
+    /* Smaller font size for readability */
+    line-height: 1.2;
+    /* Adjust line height */
+    max-width: 90vw;
+    /* Ensure text doesn't overflow */
+    padding: 10px;
+    /* Adjust padding for smaller screens */
+    color: #fff;
+    /* Keep the text color white */
+  }
+
+  .overlay-text p {
+    margin: 0;
+    /* Remove any default margin */
+  }
+
+  .overlay-text .highlight {
+    color: #ffdd33;
+    /* Highlight color remains the same */
+  }
+
+  .milestones-section {
+    padding: 10px 15px;
+    /* Slightly adjust padding for a balanced view */
+  }
+
+  .section-title {
+    text-align: center;
+    /* Center the title */
+    margin-bottom: 20px;
+    /* Adjust the space below the title */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Ensure the title elements are centered */
+  }
+
+  .milestone-number {
+    font-size: 16px;
+    /* Maintain reduced font size for readability */
+    display: block;
+    /* Ensure it's on its own line */
+    margin-bottom: 5px;
+    /* Adjust space between the number and title */
+  }
+
+  .section-title h2 {
+    margin: 0 3vw;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .milestones {
+    display: flex;
+    flex-direction: column;
+    /* Stack milestones vertically */
+    gap: 15px;
+    /* Reduce the gap for a compact look */
+    align-items: flex-start;
+    /* Align the milestones to the left */
+    padding: 0 5px;
+    /* Adjust padding to maximize width usage */
+  }
+
+  .milestone {
+    display: flex;
+    flex-direction: column;
+    /* Stack year and text vertically */
+    align-items: flex-start;
+    /* Align items to the left */
+    gap: 5px;
+    /* Reduce space between year and text */
+  }
+
+  .year {
+    font-size: 16px;
+    /* Adjust font size for the year */
+    text-align: left;
+    /* Keep text aligned to the left */
+    margin-bottom: 3px;
+    /* Minimize space below the year */
+    margin-left: 5vw;
+  }
+
+  .milestone-text h3 {
+    font-size: 16px;
+    /* Adjust font size for headings */
+    margin-bottom: 3px;
+    /* Tighten space between heading and paragraph */
+  }
+
+  .milestone-text p {
+    font-size: 14px;
+    /* Keep paragraph font size small for space */
+    line-height: 1.3;
+    /* Tighten line height for more text */
+    margin-bottom: 10px;
+    /* Optimize space below paragraphs */
+    margin-right: 9vw;
+  }
+
+  .milestones::before {
+    content: none;
+  }
+
+  .year::before {
+    content: none;
+  }
+
+  .footer {
+    font-size: 12px;
+    /* Reduce font size of the footer text */
+  }
+
+  .download-1 img,
+  .download-2 img,
+  .download-3 img,
+  .download-4 img,
+  .download img {
+    width: 15px;
+    /* Reduce the size of the download icons */
+    height: 15px;
+    /* Maintain aspect ratio */
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .about .icon-frame {
+    width: 14% !important;
+    height: 61% !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-left: 1%;
+  }
+}
+
+/*-----------------------*/
+
+@media (min-width: 321px) and (max-width: 425px) {
+  .about .group-21 {
+    flex-direction: column;
+    /* Stack items vertically */
+    width: 100%;
+    /* Take full width */
+    margin-bottom: 100px;
+    /* Reduce the margin to fit better on small screens */
+  }
+  .top-background {
+    height: 28vh !important;
+  }
+
+  .about .group-21 div {
+    width: 40px;
+    /* Reduce the size of rectangles */
+    height: 40px;
+    /* Reduce height to keep proportions */
+    margin-bottom: 10px;
+    /* Add margin between rectangles */
+  }
+
+  /* Adjustments for .section-1 */
+  .section-1 {
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .about .electrifying {
+    left: 6vw;
+    top: 13vh;
+    font-size: 95px;
+    line-height: 0.885;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .about .the-thrill {
+    left: 6vw;
+    top: 18vh;
+    font-size: 95px;
+    line-height: 0.885;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .about .of-riding {
+    top: 44vh !important;
+    right: 9vw !important;
+  }
+
+  .section-1 .electrifying,
+  .section-1 .the-thrill,
+  .section-1 .of-riding {
+    font-size: 25px !important;
+    /* Reduce font size for better mobile view */
+    line-height: 1.1;
+    margin: 10px 0;
+  }
+
+  .section-1 .transforming {
+    font-size: 12px !important;
+    line-height: 1.4;
+    margin-top: 10px;
+    top: 32vh;
+    right: 9vw;
+  }
+
+  .about .about-image {
+    width: 65% !important;
+    /* Make sure it takes full width */
+    top: 80px !important;
+    height: 30vh !important;
+    /* Adjust positioning */
+    background-size: cover !important;
+    /* Ensure the image is contained properly */
+    margin-top: 10px !important;
+    /* Add space above */
+  }
+
+  .about .group-18 {
+    margin-top: 30vh;
+    width: 60px;
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  .group-49 {
+    justify-content: center !important;
+  }
+
+  .group-48 {
+    justify-content: center !important;
+    margin-bottom: 10px;
+    height: 35px !important;
+  }
+
+  .container-who,
+  .container-our-approach {
+    margin-top: 10px !important;
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .container-our-approach {
+  }
+
+  .innovators {
+    font-size: 12vw !important;
+  }
+
+  .about .at-mercellenie {
+    font-size: 5vw !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 15px;
+  }
+
+  .about .we-believe {
+    font-size: 5vw !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 30px;
+  }
+
+  .section-number {
+    font-size: 5vw !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 30px;
+  }
+
+  .about .power-style-efficiency {
+    display: flex;
+    align-items: center;
+    width: 96%;
+    max-width: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .passion-meets-innovation {
+    flex-direction: column;
+    /* Stack vertically */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* Allow the section to grow */
+  }
+
+  .screenshot-image {
+    margin-bottom: 20px;
+    /* Add space between image and text */
+  }
+
+  .screenshot-image img {
+    width: 80%;
+    height: auto;
+    /* Make image smaller and maintain aspect ratio */
+  }
+
+  .innovation-text {
+    padding: 20px;
+    text-align: center;
+    /* Center text */
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+  }
+
+  .innovation-text h1 {
+    font-size: 36px;
+    /* Adjust heading size */
+    margin: 0;
+    margin-bottom: 10px;
+    /* Add small margin to separate h1 and p */
+  }
+
+  .innovation-text p {
+    font-size: 14px;
+    /* Adjust paragraph size */
+    margin: 0;
+    max-width: 72vw;
+    margin-top: 5px;
+    /* Add small margin to reduce the gap between h1 and p */
+  }
+
+  .why-choose-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the children vertically */
+    padding: 0 !important;
+    margin-bottom: 15% !important;
+    /* Additional spacing at the bottom */
+  }
+
+  .why-choose-us .why-text {
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 20px;
+    width: 94%;
+    max-width: 92%;
+  }
+
+  .why-choose-us .section-number {
+    font-size: 16px;
+    /* Smaller font size for smaller screens */
+    color: #ffdd33;
+    /* Styling color to make it stand out */
+    display: block;
+    /* Ensure it is on its own line */
+  }
+
+  .why-choose-us .why-text h2 {
+    font-size: 20px;
+    /* Smaller heading for better fit */
+    margin-top: 5px;
+    /* Adjust spacing */
+    margin-bottom: 20px;
+    /* Additional space before icons start */
+  }
+
+  /* Adjust the icon layout to have image on the left and text on the right */
+  .why-choose-us .why-icons {
+    flex-direction: column;
+    align-items: stretch;
+    /* Stretch icons container to full width */
+    width: 100%;
+    display: flex;
+    padding: 0 !important;
+  }
+
+  .why-choose-us .icon-item {
+    display: flex;
+    flex-direction: row;
+    /* Ensure icons and text are side-by-side */
+    align-items: center;
+    /* Center items vertically */
+    margin-bottom: 15px;
+    /* Space between each icon and text group */
+    width: 100%;
+  }
+
+  .about .icon-frame {
+    width: 13%;
+    height: 72%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-left: 1%;
+  }
+
+  .why-choose-us .about-vector {
+    width: 9%;
+    height: 44%;
+    object-fit: contain;
+    left: 3%;
+  }
+
+  .why-choose-us .icon-text {
+    flex-grow: 1;
+    /* Allow the text to take the remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align text to the start (left) */
+  }
+
+  .why-choose-us .icon-text h3 {
+    font-size: 16px;
+    /* Slightly reduce the font size */
+    margin-bottom: 5px;
+    /* Space between the header and paragraph */
+  }
+
+  .why-choose-us .icon-text p {
+    font-size: 14px;
+    /* Suitable font size for clarity */
+    text-align: left;
+    /* Align the text to the left */
+  }
+
+  .image-text-container {
+    width: 100vw;
+    /* Full viewport width */
+    height: 34vh;
+    /* Adjust height to fit smaller screens */
+    position: relative;
+    overflow: hidden;
+    /* Ensure no overflow */
+  }
+
+  .mercelline-image {
+    width: 100%;
+    /* Ensure image takes full width */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: contain;
+    /* Make sure image fits the container */
+  }
+
+  .overlay-text {
+    position: absolute;
+    bottom: 10px;
+    /* Adjust text to sit closer to the bottom */
+    left: 10px;
+    /* Adjust padding to fit smaller screens */
+    font-size: 14px;
+    /* Smaller font size for readability */
+    line-height: 1.2;
+    /* Adjust line height */
+    max-width: 90vw;
+    /* Ensure text doesn't overflow */
+    padding: 10px;
+    /* Adjust padding for smaller screens */
+    color: #fff;
+    /* Keep the text color white */
+  }
+
+  .overlay-text p {
+    margin: 0;
+    /* Remove any default margin */
+  }
+
+  .overlay-text .highlight {
+    color: #ffdd33;
+    /* Highlight color remains the same */
+  }
+
+  .milestones-section {
+    padding: 10px 15px;
+    /* Slightly adjust padding for a balanced view */
+  }
+
+  .section-title {
+    text-align: center;
+    /* Center the title */
+    margin-bottom: 20px;
+    /* Adjust the space below the title */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Ensure the title elements are centered */
+  }
+
+  .milestone-number {
+    font-size: 16px;
+    /* Maintain reduced font size for readability */
+    display: block;
+    /* Ensure it's on its own line */
+    margin-bottom: 5px;
+    /* Adjust space between the number and title */
+  }
+
+  .section-title h2 {
+    margin: 0 3vw;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .milestones {
+    display: flex;
+    flex-direction: column;
+    /* Stack milestones vertically */
+    gap: 15px;
+    /* Reduce the gap for a compact look */
+    align-items: flex-start;
+    /* Align the milestones to the left */
+    padding: 0 5px;
+    /* Adjust padding to maximize width usage */
+  }
+
+  .milestone {
+    display: flex;
+    flex-direction: column;
+    /* Stack year and text vertically */
+    align-items: flex-start;
+    /* Align items to the left */
+    gap: 5px;
+    /* Reduce space between year and text */
+  }
+
+  .year {
+    font-size: 16px;
+    /* Adjust font size for the year */
+    text-align: left;
+    /* Keep text aligned to the left */
+    margin-bottom: 3px;
+    /* Minimize space below the year */
+    margin-left: 5vw;
+  }
+
+  .milestone-text h3 {
+    font-size: 16px;
+    /* Adjust font size for headings */
+    margin-bottom: 3px;
+    /* Tighten space between heading and paragraph */
+  }
+
+  .milestone-text p {
+    font-size: 14px;
+    /* Keep paragraph font size small for space */
+    line-height: 1.3;
+    /* Tighten line height for more text */
+    margin-bottom: 10px;
+    /* Optimize space below paragraphs */
+    margin-right: 9vw;
+  }
+
+  .milestones::before {
+    content: none;
+  }
+
+  .year::before {
+    content: none;
+  }
+
+  .footer {
+    font-size: 12px;
+    /* Reduce font size of the footer text */
+  }
+
+  .download-icons {
+    padding-left: 0%;
+    padding-top: 3%;
+  }
+
+  .download-1 img,
+  .download-2 img,
+  .download-3 img,
+  .download-4 img,
+  .download img {
+    width: 15px;
+    /* Reduce the size of the download icons */
+    height: 15px;
+    /* Maintain aspect ratio */
+  }
+}
+
+/*-----------------------*/
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .about .group-21 {
+    margin-bottom: 50px; /* Slightly reduced compared to smaller screens */
+  }
+
+  .about .electrifying {
+    top: 1.5%;
+    left: 5%;
+  }
+  .about .the-thrill {
+    top: 2.5%;
+    left: 5%;
+  }
+  .about .of-riding {
+    top: 7.5%;
+    right: 5%;
+  }
+  .about .electrifying,
+  .about .the-thrill,
+  .about .of-riding {
+    font-size: 60px; /* Adjusted for larger screens */
+  }
+
+  .section-1 .transforming {
+    font-size: 16px; /* Larger to maintain readability */
+    top: 6%; /* Adjust vertical position */
+    right: 5%; /* Adjust horizontal alignment */
+  }
+
+  .about .about-image {
+    width: 80% !important; /* Wider to utilize more space */
+    height: 71vh !important; /* Taller for better visual impact */
+  }
+
+  .group-49,
+  .group-48 {
+    justify-content: center; /* Ensure central alignment of elements */
+    margin-bottom: 15px; /* Adjust spacing between elements */
+  }
+
+  .innovators {
+    font-size: 40px !important; /* Larger font size for visibility */
+  }
+
+  .about .at-mercellenie,
+  .about .we-believe {
+    font-size: 15px; /* Increased font size */
+  }
+
+  .section-number {
+    font-size: 24px; /* Increased font size for better visibility */
+  }
+
+  .passion-meets-innovation {
+    height: 100vh; /* Adjusted to maintain full screen height */
+  }
+
+  .innovation-text h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 0px;
+  }
+  .innovation-text{
+    padding: 20px !important;
+  }
+
+  .innovation-text p {
+    font-size: 18px;
+
+    max-width: 45vw;
+  }
+  .section-number {
+    font-size: 18px;
+  }
+  .about .why-text h2 {
+    font-size: 40px;
+  }
+
+  .about .icon-text p {
+    font-size: 16px;
+  }
+  .screenshot-image img {
+    width: 100%; /* Full width for better coverage */
+  }
+
+  .why-choose-us .why-icons {
+    padding: 20px 0; /* Adjust padding to provide more space */
+  }
+  .about .why-choose-us{
+    display: block;
+  }
+  
+.milestone-text p{
+  font-size: 15px;
+}
+  .overlay-text {
+    font-size: 27px;
+  }
+  .overlay-text {
+    font-size: 26px;
+    max-width: 642px;
+  }
+  .section-title h2 {
+    font-size: 33px;
+    margin-bottom: 55px;
+  }
+
+  /* .milestone-text p {
+    max-width: 380px;
+    font-size: 15px;
+  }
+  .milestone-text h3 {
+    max-width: 390px;
+    font-size: 26px;
+  }
+  .milestone {
+    gap: 25px; 
+  }
+
+  .milestone-number {
+    font-size: 20px; 
+  }
+  .year {
+    text-wrap: nowrap !important;
+  } */
+
+  .footer {
+    font-size: 20px;
+  }
+  .download-icons {
+    gap: 15px;
+    padding-right: 31px;
+  }
+  .download-icons img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/*-----------------------*/
+
+@media (min-width: 769px) and (max-width: 1024) {
+  .about .electrifying {
+    top: 1.5%;
+    left: 5%;
+  }
+  .about .the-thrill {
+    top: 2.5%;
+    left: 5%;
+  }
+  .about .of-riding {
+    top: 7.5%;
+    right: 5%;
+  }
+  .about .electrifying,
+  .about .the-thrill,
+  .about .of-riding {
+    font-size: 50px; /* Adjusted for larger screens */
+  }
+
+  .section-1 .transforming {
+    font-size: 16px; /* Larger to maintain readability */
+    top: 6%; /* Adjust vertical position */
+    right: 5%; /* Adjust horizontal alignment */
+  }
+}
+
+/*-----------------------*/
+
+@media (min-width: 1441px) {
+  .year {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align the dates to the right */
+  }
+
+  .year .end-year {
+    margin-left: -15px; /* Adjust margin to visually align the years */
+    display: block; /* Ensure it is displayed as a block */
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .about .electrifying,
+  .about .the-thrill,
+  .about .of-riding {
+    font-size: 120px;
+    line-height: 1.1;
+  }
+
+  .section-1 .transforming {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .about .about-image {
+    width: 70%;
+    height: 80vh;
+    top: 15vh;
+  }
+
+  .group-49,
+  .group-48 {
+    margin-bottom: 25px;
+  }
+
+  .innovators {
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .about .at-mercellenie,
+  .about .we-believe {
+    font-size: 24px;
+    max-width: 700px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .section-number {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .passion-meets-innovation {
+    height: 110vh;
+  }
+
+  .screenshot-image img {
+    width: 100%;
+  }
+
+  .innovation-text h1 {
+    font-size: 55px;
+    line-height: 1.2;
+  }
+
+  .innovation-text p {
+    font-size: 20px;
+    max-width: 50vw;
+  }
+
+  .about .why-text h2 {
+    font-size: 45px;
+    line-height: 1.3;
+    margin-bottom: 40px;
+  }
+
+  .about .icon-text p {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .overlay-text {
+    font-size: 35px;
+    max-width: 750px;
+  }
+
+  .milestones-section {
+    padding-left: 10vw;
+  }
+
+  /* .milestones {
+    gap: 50px;
+  } */
+
+  .milestone-number {
+    font-size: 24px;
+  }
+
+  .year {
+    font-size: 24px;
+    text-wrap: wrap;
+  }
+
+  .milestone-text h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .milestone-text p {
+    font-size: 20px;
+    max-width: 75%;
+    line-height: 1.6;
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+
+  .download-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .download-icons {
+    gap: 15px;
+    padding-right: 30px;
+  }
+
+  .made-by-wings {
+    font-size: 22px;
+    letter-spacing: 1.2px;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .about .electrifying,
+  .about .the-thrill,
+  .about .of-riding {
+    font-size: 140px;
+    line-height: 1.1;
+  }
+
+  .section-1 .transforming {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .about .about-image {
+    width: 75%;
+    height: 90vh;
+    top: 15vh;
+  }
+
+  .group-49,
+  .group-48 {
+    margin-bottom: 30px;
+  }
+
+  .innovators {
+    font-size: 120px;
+    text-align: center;
+  }
+
+  .about .at-mercellenie,
+  .about .we-believe {
+    font-size: 28px;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .section-number {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .passion-meets-innovation {
+    height: 120vh;
+  }
+
+  .screenshot-image img {
+    width: 100%;
+  }
+
+  .innovation-text h1 {
+    font-size: 60px;
+    line-height: 1.3;
+  }
+
+  .innovation-text p {
+    font-size: 22px;
+    max-width: 80%;
+  }
+
+  .about .why-text h2 {
+    font-size: 50px;
+    line-height: 1.3;
+    margin-bottom: 50px;
+  }
+
+  .about .icon-text p {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .overlay-text {
+    font-size: 40px;
+    max-width: 800px;
+  }
+
+  .milestones-section {
+    padding-left: 12vw;
+  }
+
+  .milestones {
+    gap: 60px;
+  }
+
+  .milestone-number {
+    font-size: 26px;
+  }
+
+  .year {
+    font-size: 26px;
+    text-wrap: wrap;
+  }
+
+  .milestone-text h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 1%;
+  }
+
+  .milestone-text p {
+    font-size: 22px;
+    max-width: 75%;
+    line-height: 1.8;
+  }
+
+  .footer {
+    font-size: 20px;
+  }
+
+  .download-icons img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .download-icons {
+    gap: 20px;
+    padding-right: 40px;
+  }
+
+  .made-by-wings {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 320px) {
+  .overlay-text {
+    transform: none !important;
+  }
+  .discover-effect {
+    transform: none !important;
+  }
+}

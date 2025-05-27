@@ -1,0 +1,316 @@
+.Bikefront-images {
+  width: 100%;
+  transition: transform 3s ease-in-out;
+}
+
+.bike-flex {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start; 
+  position: relative;
+ 
+}
+.bike-placing {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 0%;
+}
+
+.bike-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bike-information {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.bike-details {
+  margin: 0;
+  padding-top: 12px;
+}
+
+/* Animate text line by line */
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bike-box {
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+  font-size: 24px; 
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  background-color: #171717;
+  align-items: flex-start;
+  border-left: 2px solid #ffdd33;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.bike-box.show {
+  opacity: 1;
+}
+
+.bike-box h5,
+.bike-box p {
+  opacity: 0;
+  transform: translateX(-110%);
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+.bike-box h5 {
+  animation: slide-in 0.5s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.bike-box p {
+  animation: slide-in 0.7s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.bike-box1 {
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+  font-size: 24px; 
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  background-color: #171717;
+  align-items: flex-start;
+  border-left: 2px solid #ffdd33;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.bike-box1.show {
+  opacity: 1;
+}
+
+.bike-box1 h5,
+.bike-box1 p {
+  opacity: 0;
+  transform: translateX(-110%);
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+.bike-box1 h5 {
+  animation: slide-in 0.5s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.bike-box1 p {
+  animation: slide-in 0.7s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* For .bike-box2 */
+.bike-box2 {
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+  font-size: 24px; 
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  background-color: #171717;
+  align-items: flex-start;
+  border-left: 2px solid #ffdd33;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.bike-box2.show {
+  opacity: 1;
+}
+
+.bike-box2 h5,
+.bike-box2 p {
+  opacity: 0;
+  transform: translateX(-110%);
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+.bike-box2 h5 {
+  animation: slide-in 0.5s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.bike-box2 p {
+  animation: slide-in 0.7s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* For .bike-box3 */
+.bike-box3 {
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+  font-size: 24px; 
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  background-color: #171717;
+  align-items: flex-start;
+  border-left: 2px solid #ffdd33;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.bike-box3.show {
+  opacity: 1;
+}
+
+.bike-box3 h5,
+.bike-box3 p {
+  opacity: 0;
+  transform: translateX(-110%);
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+.bike-box3 h5 {
+  animation: slide-in 0.5s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.bike-box3 p {
+  animation: slide-in 0.7s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.bike-icon img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.bike-details {
+  color: white;
+  font-family: "FontLight";
+}
+
+
+/* Hide timeline and disable rotation for small screens */
+@media only screen and (max-width: 700px) and (min-width: 320px) {
+  .timeline {
+    display: none;
+  }
+
+  /* Make the bike static */
+  .Bikefront-images {
+    transform: none;
+    width: 100%;
+  }
+
+  .bike-text-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 701px) {
+  .bike-details {
+    font-size: 9px;
+  }
+
+  .bike-information {
+    font-size: 15px;
+  }
+
+  /* .bike-box {
+    top: 28%;
+    right: 2%;
+    font-size: 16px;
+    padding: 15px;
+  } */
+
+  .Bikefront-images {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  .blinking-dot {
+    bottom: 24.9%;
+  }
+
+  .blinking-dot1 {
+    bottom: 51.9%;
+  }
+
+  .blinking-dot-container2 {
+    top: 54%;
+  }
+  .blinking-dot-container2 {
+    top: 19%;
+    right: 47%;
+  }
+  .Bikefront-images {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width: 1001px) {
+  .blinking-dot {
+    bottom: 25.9%;
+  }
+  .Bikefront-images {
+    width: 100%;
+  }
+}
+.bike-box{
+  padding: 13px;
+}
+.bike-box1{
+  padding: 13px;
+}
+.bike-box2{
+  padding: 13px;
+}
+.bike-box3{
+  padding: 13px;
+}
+@media only screen and (max-width: 1920px) and (min-width: 1301px) {
+  .blinking-dot {
+    bottom: 25.9%;
+  }
+  .Bikefront-images {
+    width: 100%;
+  }
+  .bike-information{
+    font-size: 18px;
+  }
+  .bike-box {
+    padding: 15px;
+    font-size: 15px;
+  }
+  .bike-box1 {
+    padding: 15px;
+    font-size: 15px;
+  }
+  .bike-box2 {
+    padding: 15px;
+    font-size: 15px;
+  }
+  .bike-box3 {
+    padding: 15px;
+    font-size: 15px;
+  }
+}
