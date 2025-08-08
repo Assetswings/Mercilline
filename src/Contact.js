@@ -277,7 +277,6 @@ function Contact1() {
           </div>
 
 
-
           <div className="background-icons">
             <div className="download-icons">
               <div className="download-1">
@@ -314,12 +313,9 @@ function Contact1() {
               <a href="https://wings.design/" target="_blank" rel="noopener noreferrer" className="made-by-wings">
                 Made by wings
               </a>
-
               <div className="bottom-background"></div>
-
             </div>
           </div>
-
         </div>
       </ReactLenis>
     </>

@@ -1067,7 +1067,7 @@ function Home({ handleNavigateBack }) {
                       <img src={Icon4} className="icon5" alt="Icon 5" />
                     </a>
                   </div>
-                  <p className="wings-work">
+                  {/* <p className="wings-work">
                     MADE BY{" "}
                     <a
                       href="https://wings.design/"
@@ -1076,7 +1076,7 @@ function Home({ handleNavigateBack }) {
                     >
                       WINGS
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
