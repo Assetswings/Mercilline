@@ -1962,12 +1962,12 @@
   }
 }
 
-@media (min-width: 1921px) and (max-width: 2560px) {
-  .about .electrifying,
-  .about .the-thrill,
-  .about .of-riding {
-    font-size: 140px;
-    line-height: 1.1;
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .download-icons {
+      gap: 15px;
+      padding-right: 30px;
+      align-items: center;
+      margin-top: 20px;
   }
 
   .section-1 .transforming {

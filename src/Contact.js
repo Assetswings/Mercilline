@@ -278,7 +278,15 @@ function Contact1() {
 
 
           <div className="background-icons">
-            <div className="download-icons">
+       
+
+            <div className="footer">
+              <span className="mercellinie">©2025 MERCELLENIE</span>
+              <span className="privacy-policy">PRIVACY POLICY</span>
+              {/* <a href="https://wings.design/" target="_blank" rel="noopener noreferrer" className="made-by-wings">
+                Made by wings
+              </a> */}
+              <div className="download-icons">
               <div className="download-1">
                 <a
                   href="https://www.linkedin.com/in/mercellenie-automotive-9a1910309/"
@@ -306,14 +314,6 @@ function Contact1() {
                 </a>
               </div>
             </div>
-
-            <div className="footer">
-              <span className="mercellinie">©2024 MERCELLENIE</span>
-              <span className="privacy-policy">PRIVACY POLICY</span>
-              <a href="https://wings.design/" target="_blank" rel="noopener noreferrer" className="made-by-wings">
-                Made by wings
-              </a>
-              <div className="bottom-background"></div>
             </div>
           </div>
         </div>
